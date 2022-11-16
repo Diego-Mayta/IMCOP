@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="a3.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="titulo">
+        <h1>indice de masa corporal</h1>
+    </header>
+    <p>
+        Use el programa para determinar la obesidad de los siguientes dos individuos : <br>
+        a) una persona de 6 pies y 2 pulgadas--->(&nbsp; 6.2 &nbsp;)  &nbsp;pulgadas de alto con un peso de--->(&nbsp; 180&nbsp; )&nbsp; libras <br>
+        b) una persona de 5 pies y 1 pulgada---->( &nbsp;5.1&nbsp; )  &nbsp;de altura con un peso de--->( &nbsp;150 &nbsp;) &nbsp;libras
+    </p>
+    <section>
+        <div class="respuesta"> 
+            <label class="letritas"> introduzca sus datos :</label>
+            <input type="number" id=a placeholder="Estatura">
+            <input type="number" id=p placeholder="Peso">
+            <button onclick="calpe()">Calcular</button>
+            <TABLE align="center">
+                <tr>
+                    <td>
+                        <h5 class="letritas">IMC:  </h5> 
+                    </td>
+                    <td>
+                        <div class="te" id="calpe"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h5 class="letritas">CLASIFICACION :</h5> 
+                    </td>
+                    <td>
+                        <div class="te" id="pi2"></div>
+                    </td>
+                </tr>
+            </TABLE> 
+        </div>
+        </div>
+    </section>
+    <script src="a3.js"></script>
+</body>
+</html>
